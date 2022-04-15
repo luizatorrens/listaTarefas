@@ -1,0 +1,53 @@
+.container {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #673ED6;
+    border: 15px solid #673ED6;
+    border-radius: 19px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+ul li {
+    list-style-type: none;
+    color: white;
+}
+em{
+    color: white;
+}
+.btnADD{
+    height: 38px;
+    width: 110px;
+    font-weight: bolder;
+    font-size: 0.8em;
+    color: white;
+    background-color: #F54FD3;
+    border-radius: 10px;
+    margin: 10px;
+}
+.addtarefas{
+    height: 50px;
+    width: 75%;
+    font-size: 0.8em;
+    color: antiquewhite;
+    border-radius: 10px;
+    margin: 10px;
+}
+.removed label {
+    text-decoration: line-through;
+    color: white;
+}
+.change-title{
+    color: #444433;
+    text-align: center;
+    margin-left: 190px;
+}
+
+.btnRemover{
+    background-color:#F50761;
+    margin-left: 285px;
+}
