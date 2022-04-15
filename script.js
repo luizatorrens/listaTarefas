@@ -36,8 +36,8 @@ Array.from(tasks).forEach(task => task.addEventListener('click', toggleRemoved))
 
 
 function atualizarLista(){
-    let removidas = document.getElementsByClassName('removed') // BUSCA TODAS AS TAREFAS JA CONCLUIDAS
-    Array.from(removidas).forEach(task => task.remove()) // CRIAR UMA LISTA COM TODAS ELAS, DEPOIS, PARA CADA UMA REALIZA O REMOVE
+    let removidas = document.getElementsByClassName('removed')
+    Array.from(removidas).forEach(task => task.remove())
 }
 
 const btnRemover = document.getElementById("remove").addEventListener("click", atualizarLista)
